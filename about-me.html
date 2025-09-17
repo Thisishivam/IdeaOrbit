@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Me - Transformer Journey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/themes.css">
+    <link rel="stylesheet" href="styles/about-me.css">
+</head>
+
+<body>
+    <div class="container about-me-page">
+        <header>
+            <div class="header-left">
+                <a href="index.html" class="back-btn">
+                    <i class="fas fa-arrow-left"></i>
+                </a>
+                <div class="logo">
+                    <i class="fas fa-bolt"></i>
+                    <span>Transformer Journey</span>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <main class="about-me-main">
+            <div class="about-hero">
+                <div class="hero-content">
+                    <h1>Shivam Pandey</h1>
+                    <h2>AI Enthusiast & Cybersecurity Specialist</h2>
+                    <p>Bridging cybersecurity expertise with cutting-edge AI development</p>
+                    <div class="hero-buttons">
+                        <a href="#experience" class="btn-primary">View Experience</a>
+                        <a href="#contact" class="btn-secondary">Get In Touch</a>
+                    </div>
+                </div>
+                <div class="hero-visual">
+                    <div class="circuit-animation">
+                        <div class="node"></div>
+                        <div class="node"></div>
+                        <div class="node"></div>
+                        <div class="node"></div>
+                        <div class="connection"></div>
+                        <div class="connection"></div>
+                        <div class="connection"></div>
+                    </div>
+                </div>
+            </div>
+
+            <section class="about-section" id="about">
+                <div class="section-header">
+                    <h2>My Journey</h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="about-grid">
+                    <div class="about-text">
+                        <p>I'm a cybersecurity professional with a growing passion for artificial intelligence and
+                            machine learning. My journey into AI began with a fascination for transformer architectures
+                            and their potential to revolutionize how we interact with technology.</p>
+                        <p>With a solid foundation in secure system design and a rapidly expanding skillset in AI
+                            engineering, I'm building production-grade transformer implementations while maintaining a
+                            security-first mindset that's essential for responsible AI development.</p>
+                        <div class="stats-grid">
+                            <div class="stat">
+                                <div class="stat-number" id="project-count">15+</div>
+                                <div class="stat-label">Projects</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number" id="github-repos">20+</div>
+                                <div class="stat-label">GitHub Repos</div>
+                            </div>
+                            <div class="stat">
+                                <div class="stat-number" id="skills-count">20+</div>
+                                <div class="stat-label">Technologies</div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="about-image">
+                        <div class="profile-photo-container">
+                            <img src="assests/images/Photo.png"
+                                alt="Shivam - AI Enthusiast & Cybersecurity Specialist" class="profile-photo">
+                            <div class="photo-overlay">
+                                <div class="overlay-content">
+                                    <i class="fas fa-lock"></i>
+                                    <i class="fas fa-arrow-right"></i>
+                                    <i class="fas fa-brain"></i>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="experience-section" id="experience">
+                <div class="section-header">
+                    <h2>Professional Experience</h2>
+                    <div class="header-line"></div>
+                    <p>Combining cybersecurity expertise with cutting-edge AI development</p>
+                </div>
+
+                <div class="timeline">
+                    <div class="timeline-item">
+                        <div class="timeline-date">Jun 2024 - Present</div>
+                        <div class="timeline-content">
+                            <div class="experience-card">
+                                <div class="exp-header">
+                                    <h3>Bug Hunter</h3>
+                                    <span class="exp-company">HackerOne · Freelance</span>
+                                    <span class="exp-duration">1 yr 4 mos · Remote</span>
+                                </div>
+                                <div class="exp-details">
+                                    <ul>
+                                        <li>Finding potential bugs on HackerOne programs and building hacking tools to
+                                            find vulnerabilities</li>
+                                        <li>Expertise in OWASP Top 10, SQLi, CSRF, XSS, IDOR, SSRF, and RCE</li>
+                                        <li>Leveraged tools like Burp Suite, Nmap, Metasploit, and OWASP ZAP for
+                                            vulnerability assessments</li>
+                                        <li>Delivered actionable security reports with POC and risk assessments</li>
+                                    </ul>
+                                    <div class="exp-skills">
+                                        <span class="skill-tag">Ethical Hacking</span>
+                                        <span class="skill-tag">Bug Hunting</span>
+                                        <span class="skill-tag">OWASP Top 10</span>
+                                        <span class="skill-tag">Penetration Testing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">Dec 2023 - Present</div>
+                        <div class="timeline-content">
+                            <div class="experience-card">
+                                <div class="exp-header">
+                                    <h3>CTF Player</h3>
+                                    <span class="exp-company">TryHackMe · Full-time</span>
+                                    <span class="exp-duration">1 yr 10 mos · Remote</span>
+                                </div>
+                                <div class="exp-details">
+                                    <ul>
+                                        <li>Ranked in the top 4% on the TryHackMe leaderboard among global participants
+                                        </li>
+                                        <li>Gained experience in applying methodologies like OWASP and MITRE ATT&CK in
+                                            simulated environments</li>
+                                        <li>Participated in various cybersecurity challenges focusing on web application
+                                            security, network exploitation, and cryptography</li>
+                                        <li>Developed advanced problem-solving skills in competitive security
+                                            environments</li>
+                                    </ul>
+                                    <div class="exp-skills">
+                                        <span class="skill-tag">Ethical Hacking</span>
+                                        <span class="skill-tag">Penetration Testing</span>
+                                        <span class="skill-tag">Reverse Engineering</span>
+                                        <span class="skill-tag">Cloud Security</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="timeline-item">
+                        <div class="timeline-date">Feb 2023 - Present</div>
+                        <div class="timeline-content">
+                            <div class="experience-card">
+                                <div class="exp-header">
+                                    <h3>Cloud Security Freelancer</h3>
+                                    <span class="exp-company">Fiverr · Freelance</span>
+                                    <span class="exp-duration">2 yrs 8 mos · Remote</span>
+                                </div>
+                                <div class="exp-details">
+                                    <ul>
+                                        <li>Providing help with deployment issues in AWS cloud infrastructure</li>
+                                        <li>Cloud server deployment with different tools and containerization
+                                            technologies</li>
+                                        <li>Implementing best practices for Cloud Security using services like ELK,
+                                            Splunk, and AWS WAF</li>
+                                        <li>Identifying potential vulnerabilities in web applications and providing
+                                            remediation strategies</li>
+                                    </ul>
+                                    <div class="exp-skills">
+                                        <span class="skill-tag">Cloud Security</span>
+                                        <span class="skill-tag">AWS</span>
+                                        <span class="skill-tag">Networking</span>
+                                        <span class="skill-tag">Penetration Testing</span>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="skills-section" id="skills">
+                <div class="section-header">
+                    <h2>Skills & Expertise</h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="skills-container">
+                    <div class="skill-category">
+                        <h3><i class="fas fa-shield-alt"></i> Cybersecurity Foundation</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Ethical Hacking & Bug Bounty</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Penetration Testing</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Cloud Security (AWS)</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="88"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Vulnerability Assessment</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="87"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-code"></i> Development & Tools</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Security Tools (Burp Suite, Nmap)</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="92"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Python Development</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Web Application Security</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="89"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Containerization & Deployment</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="83"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="skill-category">
+                        <h3><i class="fas fa-brain"></i> AI & Machine Learning</h3>
+                        <div class="skill-items">
+                            <div class="skill-item">
+                                <span class="skill-name">Transformer Architectures</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">PyTorch Framework</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="78"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Secure AI Development</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="82"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <span class="skill-name">Research Implementation</span>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section class="projects-section" id="projects">
+                <div class="section-header">
+                    <h2>Projects & Learning Journey</h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-transformer"></i>
+                        </div>
+                        <h3>Transformer from Scratch</h3>
+                        <p>Building a production-ready transformer implementation with attention mechanisms, positional
+                            encoding, and optimized training loops.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PyTorch</span>
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">CUDA</span>
+                        </div>
+                        <a href="http://github.com/Thisishivam/GPT-Transformer-Stage1" target="_blank"
+                            class="project-link">View on GitHub</a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-lock"></i>
+                        </div>
+                        <h3>A Simple Elastic SIEM Visualization and Alerting Lab</h3>
+                        <p>Developed a custom dashboard in Elastic SIEM to visualize security events in AWS Linux
+                            server. Demonstrating skills in data interpretation and pattern recognition.Successfully
+                            created and tested alert rules for detecting specific security events.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Security</span>
+                            <span class="tech-tag">AI Safety</span>
+                            <span class="tech-tag">Home-Lab</span>
+                        </div>
+                        <a href="https://github.com/Thisishivam/SIEM-Project-Elastic" target="_blank"
+                            class="project-link">View on GitHub</a>
+                    </div>
+
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>Vulnerable Code-Scanner</h3>
+                        <p>This tool scans the provided file and shows the potential vulnerabilities or any sensitive
+                            information leaked in the code.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Security</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                        <a href="https://github.com/Thisishivam/Code-Scanner" target="_blank" class="project-link">View
+                            on GitHub</a>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-icon">
+                            <i class="fas fa-cloud"></i>
+                        </div>
+                        <h3>CSRF PoC generator</h3>
+                        <p>The CSRF (Cross-Site Request Forgery) Proof of Concept (PoC) Generator is a Python script
+                            that allows users to generate and exploit CSRF vulnerabilities</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Ethical-Hacking</span>
+                            <span class="tech-tag">Security</span>
+                            <span class="tech-tag">Automation</span>
+                        </div>
+                        <a href="https://github.com/Thisishivam/csrf-poc-generator" target="_blank"
+                            class="project-link">View on GitHub</a>
+                    </div>
+                </div>
+            </section>
+
+            <section class="values-section">
+                <div class="section-header">
+                    <h2>My Approach</h2>
+                    <div class="header-line"></div>
+                </div>
+                <div class="values-grid">
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-shield-alt"></i>
+                        </div>
+                        <h3>Security First</h3>
+                        <p>Applying cybersecurity principles to AI development for robust, secure systems that protect
+                            user data and privacy.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-bolt"></i>
+                        </div>
+                        <h3>Performance Driven</h3>
+                        <p>Building optimized, efficient systems that deliver maximum performance while maintaining
+                            security standards.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-lightbulb"></i>
+                        </div>
+                        <h3>Innovation Focused</h3>
+                        <p>Continuously exploring new techniques and approaches to solve complex problems in AI and
+                            cybersecurity.</p>
+                    </div>
+                    <div class="value-card">
+                        <div class="value-icon">
+                            <i class="fas fa-rocket"></i>
+                        </div>
+                        <h3>Results Oriented</h3>
+                        <p>Delivering practical solutions that solve real-world problems and create tangible value.</p>
+                    </div>
+                </div>
+            </section>
+
+            <section class="contact-section" id="contact">
+                <div class="section-header">
+                    <h2>Let's Connect</h2>
+                    <div class="header-line"></div>
+                    <p>I'm excited to connect with professionals in AI and cybersecurity to explore innovative projects
+                        and opportunities.</p>
+                </div>
+                <div class="contact-grid">
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-linkedin"></i>
+                        </div>
+                        <h3>LinkedIn</h3>
+                        <p>Connect professionally and view my experience</p>
+                        <a href="https://www.linkedin.com/in/thisishivam13/" target="_blank"
+                            class="contact-link">Connect</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-github"></i>
+                        </div>
+                        <h3>GitHub</h3>
+                        <p>Explore my projects and code repositories</p>
+                        <a href="https://github.com/Thisishivam" target="_blank" class="contact-link">View Profile</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fab fa-twitter"></i>
+                        </div>
+                        <h3>Twitter</h3>
+                        <p>View my Tweets</p>
+                        <a href="https://x.com/thisishivam_11" target="_blank" class="contact-link">View Profile</a>
+                    </div>
+                    <div class="contact-card">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <h3>Email</h3>
+                        <p>Reach out for opportunities and collaborations</p>
+                        <a href="mailto:shivampnd887@gmail.com" target="_blank" class="contact-link">Contact</a>
+                    </div>
+                </div>
+            </section>
+        </main>
+
+        <footer>
+            <p>Building secure AI systems for the future</p>
+            <div class="social-links">
+                <a href="https://github.com/Thisishivam" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/thisishivam_11" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/thisishivam13/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/about-me.js"></script>
+</body>
+
+</html>

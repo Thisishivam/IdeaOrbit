@@ -1,0 +1,29 @@
+{
+    "title": "Hivam - AI Engineer & Transformer Specialist",
+    "sections": [
+        {
+            "title": "About Me",
+            "content": "<p>I'm a passionate AI Engineer with expertise in cybersecurity transitioning into cutting-edge artificial intelligence research and development. My journey involves building production-grade transformer architectures from scratch, with a focus on high-performance, scalable AI systems.</p><p>I'm actively pursuing opportunities at leading AI research organizations like OpenAI, Google DeepMind, and Meta AI, where I can contribute to advancing the state of the art in transformer architectures and large language models.</p>"
+        },
+        {
+            "title": "Skills & Expertise",
+            "content": "<div class='skills-grid'><div class='skill-category'><h4>Transformer Architecture</h4><ul><li>Production-Grade Transformer Implementation</li><li>Distributed Training (DDP, NCCL)</li><li>Tensor Parallelism (Megatron-style)</li><li>FlashAttention Optimization</li><li>Rotary Position Embeddings (RoPE)</li><li>RMSNorm & Layer Normalization</li></ul></div><div class='skill-category'><h4>Programming & Frameworks</h4><ul><li>Python (Advanced)</li><li>PyTorch (Production Experience)</li><li>CUDA/Optimization</li><li>Triton for Custom Kernels</li><li>Distributed Systems</li><li>Model Optimization</li></ul></div><div class='skill-category'><h4>AI/ML Fundamentals</h4><ul><li>Deep Learning Architectures</li><li>Natural Language Processing</li><li>Model Training & Optimization</li><li>Mixed Precision Training</li><li>Hyperparameter Tuning</li><li>Research Paper Implementation</li></ul></div><div class='skill-category'><h4>Cybersecurity Background</h4><ul><li>Secure AI System Design</li><li>Adversarial Robustness</li><li>Model Security</li><li>Privacy-Preserving AI</li><li>Ethical AI Development</li><li>Secure Deployment</li></ul></div></div>"
+        },
+        {
+            "title": "Projects",
+            "content": "<div class='project'><h4>Production-Grade Transformer from Scratch</h4><p>Building a high-performance transformer architecture comparable to GPT-4 scale with distributed training, tensor parallelism, and custom CUDA optimizations.</p><ul><li>Implemented distributed multi-GPU training with PyTorch DDP</li><li>Developed tensor parallel linear layers (Megatron-style)</li><li>Created fused Rotary Position Embeddings (RoPE) with Triton</li><li>Optimized attention with FlashAttention implementation</li><li>Achieved performance comparable to industry standards</li></ul></div><div class='project'><h4>Advanced Normalization Techniques</h4><p>Researched and implemented production-optimized normalization layers including RMSNorm with CUDA optimizations.</p><ul><li>15-20% faster than standard LayerNorm</li><li>Better memory access patterns</li><li>Improved training stability</li></ul></div><div class='project'><h4>AI Security Framework</h4><p>Leveraging cybersecurity background to develop secure AI training and deployment practices.</p><ul><li>Adversarial training techniques</li><li>Model robustness evaluation</li><li>Secure multi-tenant inference</li></ul></div>"
+        },
+        {
+            "title": "Education & Learning",
+            "content": "<div class='education-item'><h4>Self-Directed AI Specialization</h4><p><em>2023 - Present</em></p><p>Focused on deep learning, transformer architectures, and production AI system design through implementation of research papers and building complex systems from scratch.</p></div><div class='education-item'><h4>Cybersecurity Background</h4><p><em>Previous Experience</em></p><p>Extensive experience in cybersecurity provides a unique perspective on AI safety, model security, and robust system design.</p></div>"
+        },
+        {
+            "title": "Career Goals",
+            "content": "<p>I'm seeking research and engineering roles at organizations pushing the boundaries of AI, specifically:</p><ul><li><strong>OpenAI</strong> - Training and scaling large language models</li><li><strong>Google DeepMind</strong> - AI research and model development</li><li><strong>Meta AI</strong> - Open-source AI research and engineering</li><li><strong>Anthropic</strong> - AI safety and constitutional AI</li></ul><p>My unique combination of cybersecurity expertise and deep AI implementation experience allows me to contribute to both model performance and AI safety/security.</p>"
+        },
+        {
+            "title": "Contact",
+            "content": "<div class='contact-info'><p>I'm always interested in connecting with researchers and engineers working on cutting-edge AI problems.</p><div class='contact-links'><a href='https://www.linkedin.com/in/thisishivam13/' class='contact-link'><i class='fab fa-linkedin'></i> LinkedIn</a><a href='https://github.com/yourusername' class='contact-link'><i class='fab fa-github'></i> GitHub</a><a href='mailto:your.email@example.com' class='contact-link'><i class='fas fa-envelope'></i> Email</a></div></div>"
+        }
+    ]
+}
