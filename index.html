@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Transformer Building Journey</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="stylesheet" href="styles/themes.css">
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div class="header-left">
+                <button class="nav-toggle">
+                    <i class="fas fa-bars"></i>
+                </button>
+                <div class="logo">
+                    <i class="fas fa-bolt"></i>
+                    <span>Transformer Journey</span>
+                </div>
+            </div>
+
+            <div class="header-right">
+                <a href="#" class="research-papers-btn">
+                    <i class="fas fa-file-alt"></i> <span>Research Papers</span>
+                </a>
+                <a href="about-me.html" class="about-me-btn">
+                    <i class="fas fa-user"></i> <span>About Me</span>
+                </a>
+                <button class="theme-toggle" id="themeToggle">
+                    <i class="fas fa-moon"></i>
+                </button>
+            </div>
+        </header>
+
+        <nav>
+            <ul class="topics-list">
+                <h3>Core Concepts</h3>
+                <li class="topic-item active" data-topic="introduction">
+                    <i class="fas fa-play-circle"></i> Introduction
+                </li>
+                <li class="topic-item" data-topic="distributed-setup">
+                    <i class="fas fa-server"></i> Distributed Setup
+                </li>
+                <li class="topic-item" data-topic="rmsnorm">
+                    <i class="fas fa-calculator"></i> RMSNorm (Production)
+                </li>
+                <li class="topic-item" data-topic="rope">
+                    <i class="fas fa-wave-square"></i> RoPE (Fused)
+                </li>
+                <li class="topic-item" data-topic="embeddings">
+                    <i class="fas fa-layer-group"></i> Production Embedding
+                </li>
+                <li class="topic-item" data-topic="tensor-parallel">
+                    <i class="fas fa-project-diagram"></i> Tensor Parallel Linear
+                </li>
+                <li class="topic-item" data-topic="fused-qkv">
+                    <i class="fas fa-bolt"></i> Fused QKV Projection
+                </li>
+                <li class="topic-item" data-topic="flash-attention">
+                    <i class="fas fa-brain"></i> FlashAttention
+                </li>
+                <li class="topic-item" data-topic="swiglu">
+                    <i class="fas fa-project-diagram"></i> SwiGLU Activation
+                </li>
+                <li class="topic-item" data-topic="transformer-block">
+                    <i class="fas fa-cube"></i> Transformer Block
+                </li>
+                <li class="topic-item" data-topic="initialization">
+                    <i class="fas fa-magic"></i> GPT-4 Initialization
+                </li>
+
+                <h3>Enhanced Features</h3>
+                <li class="topic-item" data-topic="paged-kv-cache">
+                    <i class="fas fa-database"></i> Paged KV Cache
+                </li>
+                <li class="topic-item" data-topic="production-lm-head">
+                    <i class="fas fa-heading"></i> Production LM Head
+                </li>
+                <li class="topic-item" data-topic="transformer-block-kv-cache">
+                    <i class="fas fa-cube"></i> Transformer Block with KV Cache
+                </li>
+
+                <h3>Coming Soon</h3>
+                <li class="topic-item coming-soon" data-topic="mixed-precision">
+                    <i class="fas fa-tachometer-alt"></i> Mixed Precision
+                </li>
+                <li class="topic-item coming-soon" data-topic="causal-masking">
+                    <i class="fas fa-shield-alt"></i> Causal Masking
+                </li>
+            </ul>
+        </nav>
+
+        <main>
+            <article class="article-content" id="article-content">
+                <!-- Content will be dynamically loaded here -->
+            </article>
+        </main>
+
+        <aside class="toc">
+            <div class="toc-header">
+                <h3>Table of Contents</h3>
+            </div>
+            <div class="toc-progress" id="toc-progress"></div>
+            <ul class="toc-list" id="toc-list">
+                <!-- TOC will be dynamically loaded here -->
+            </ul>
+        </aside>
+
+        <footer>
+            <p>Follow my journey of building a production-grade transformer from scratch</p>
+            <div class="social-links">
+                <a href="https://github.com/thisishivam" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://x.com/thisishivam_11" target="_blank"><i class="fab fa-twitter"></i></a>
+                <a href="https://www.linkedin.com/in/thisishivam13/" target="_blank"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </footer>
+    </div>
+
+    <script src="scripts/theme.js"></script>
+    <script src="scripts/content-loader.js"></script>
+</body>
+
+</html>
